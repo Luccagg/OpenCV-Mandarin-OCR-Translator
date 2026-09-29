@@ -9,3 +9,11 @@ A Python utility for extracting hardcoded Mandarin subtitles from video files us
 - **Raw Text Preservation:** Exports extracted Mandarin lines to a text file before invoking the translation API.
 - **Rate-Limited Batch Translation:** Translates text in small chunks with time delays to prevent API rate-limiting errors (`429 Too Many Requests`).
 - **Progress Tracking:** Displays current frame processing progress and percentage completion in the terminal.
+
+- **Example:**
+![t](imgs/ex_mandarin_subs.png)
+
+The script capture the subtitles as we can see in
+
+![t](imgs/program_output.png)
+
