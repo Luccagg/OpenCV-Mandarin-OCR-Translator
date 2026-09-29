@@ -1,0 +1,13 @@
+bin/
+lib/
+lib64/
+include/
+share/
+pyvenv.cfg
+venv/
+*.mp4
+__pycache__/
+.venv/
+env/
+*.pyc
+.pytest_cache/
