@@ -48,7 +48,7 @@ def processar_legendas_chinesas_completo(caminho_video):
                     
                     # Exibe a percentagem de progresso do vídeo no terminal
                     progresso_pct = (contagem_frames / total_frames * 100) if total_frames > 0 else 0
-                    print(f"[{progresso_pct:.1f}%] Detetado: {texto_unido}") 
+                    print(f"[{progresso_pct:.1f}%] Detectado: {texto_unido}") 
 
         contagem_frames += 1
 
